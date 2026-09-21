@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RAG chatbot: source corpus stays local (50-150 MB of PDFs).
+# Build artifacts corpus/, chroma_db/ and pages/ ARE committed - see DESIGN.md §4.
+docs/
